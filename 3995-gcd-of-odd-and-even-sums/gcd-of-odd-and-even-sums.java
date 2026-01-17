@@ -10,7 +10,7 @@ class Solution {
         for(int i=2;i<=n*2;i=i+2){
             evensum=evensum+i;
         }
-        for(int i=oddsum;i>=2;i--){
+        for(int i=Math.min(oddsum,evensum);i>=2;i--){
             if(oddsum%i==0&&evensum%i==0){
                 return i;
             }
