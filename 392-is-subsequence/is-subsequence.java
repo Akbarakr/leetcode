@@ -11,7 +11,7 @@ class Solution {
                 i++;
                 j++;
 
-            }else if(s.charAt(i)!=t.charAt(j)){
+            }else{
                 j++;
             }
         }
