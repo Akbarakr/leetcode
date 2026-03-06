@@ -4,7 +4,7 @@ class Solution {
         
         // Add ASCII values of t
         for (char c : t.toCharArray()) {
-            charSum += c;
+            charSum =charSum + c;
         }
         
         // Subtract ASCII values of s
